@@ -11,9 +11,6 @@ import javax.persistence.Id;
 @Entity
 public class Address implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	@Id
 	@Column(name="ADDRESS_ID")

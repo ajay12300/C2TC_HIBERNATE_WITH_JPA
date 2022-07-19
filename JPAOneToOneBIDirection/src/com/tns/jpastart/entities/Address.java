@@ -13,13 +13,10 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="address_id")
+@Table(name="address")
 @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)	
 public class Address implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	@Id
 	@Column(name="ADDRESS_ID")

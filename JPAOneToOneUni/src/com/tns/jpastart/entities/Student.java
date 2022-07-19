@@ -1,5 +1,7 @@
 package com.tns.jpastart.entities;
 
+
+
 import java.io.Serializable;
 
 import javax.persistence.CascadeType;
